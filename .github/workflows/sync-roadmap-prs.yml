@@ -28,6 +28,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Adapt Closed PRs Script
-        run: scripts/adapt-closed-prs.sh all
+        run: scripts/adapt-closed-prs.sh all-odd-even
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
